@@ -5,7 +5,7 @@ import Team from './Pages/Team';
 import Contact from './Pages/Contact';
 
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import Nav from './components/Nav';
+
 import Header from './components/Header';
 function App() {
   return (

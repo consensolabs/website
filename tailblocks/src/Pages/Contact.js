@@ -1,7 +1,14 @@
 import React from 'react';
+import ContactForm from '../components/Contact/Contact';
+import Footer from '../components/Footer';
 
 const Contact = () => {
-  return <h1>Hello From Contact Page</h1>;
+  return (
+    <>
+      <ContactForm />
+      <Footer />
+    </>
+  );
 };
 
 export default Contact;

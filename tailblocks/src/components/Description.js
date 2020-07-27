@@ -1,22 +1,22 @@
-import React from 'react'
+import React from 'react';
 
 function Description() {
   return (
     <>
-      <section className='text-gray-500 bg-gray-900 body-font'>
+      <section className='text-gray-500 bg-gray-100 body-font'>
         <div className='container px-5 py-24 mx-auto'>
           <div className='flex flex-col text-center w-full mb-20'>
-            <h1 className='sm:text-3xl text-2xl font-medium title-font mb-4 text-white'>
+            <h1 className='sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900'>
               What does Consenso Labs do?
             </h1>
-            <p className='lg:w-2/3 mx-auto leading-relaxed text-base'>
+            <p className='lg:w-2/3 mx-auto leading-relaxed text-gray-600'>
               We help businesses boost efficiency, security and service, through
               innovative blockchain technology.
             </p>
           </div>
           <div className='flex flex-wrap -m-4 text-center'>
             <div className='p-4 md:w-1/4 sm:w-1/2 w-full'>
-              <div className='border-2 border-gray-800 px-4 py-6 rounded-lg'>
+              <div className='border-2 border-gray-300 px-4 py-6 rounded-lg'>
                 <svg
                   fill='none'
                   stroke='currentColor'
@@ -99,7 +99,7 @@ function Description() {
         </div>
       </section>
     </>
-  )
+  );
 }
 
-export default Description
+export default Description;

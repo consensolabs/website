@@ -1,70 +1,26 @@
-import React from 'react'
+import React from 'react';
 // import ReactLogo from '../assets/logo/ReactLogo.svg'
+import Tech from '../assets/img/Tech.svg';
 
 //const ReactLogoStyle = <img style={{ width: '20%' }} src={ReactLogo} />
 
 function Technology() {
   return (
     <>
-      <div>
-        <h1 className='flex justify-center sm:text-3xl text-2xl font-medium title-font mb-4 py-6 '>
-          Technology Stack We Work On
-        </h1>
-
-        <div
-          style={{
-            display: 'grid',
-            gridTemplateColumns: '1fr 1fr 1fr 1fr',
-            backgroundColor: 'pink',
-            textAlign: 'center',
-            gridGap: '1rem',
-            paddingLeft: '12rem',
-            paddingRight: '12rem',
-            paddingTop: '1rem',
-            paddingBottom: '1rem',
-            marginBottom: '4rem',
-          }}
-        >
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
-            {/* {ReactLogoStyle} */}
+      <section class='text-gray-700 body-font bg-gray-100'>
+        <div class='container px-5 py-24 mx-auto'>
+          <div class='flex flex-col text-center w-full mb-20'>
+            <h1 class='sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900'>
+              Tech Stack We Work On
+            </h1>
           </div>
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
-            {/* {ReactLogoStyle} */}
-          </div>
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
-            {/* {ReactLogoStyle} */}
-          </div>
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
-            {/* {ReactLogoStyle} */}
-          </div>
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
-            {/* {ReactLogoStyle} */}
-          </div>
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
-            {/* {ReactLogoStyle} */}
-          </div>
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
-            {/* {ReactLogoStyle} */}
-          </div>
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
-            {/* {ReactLogoStyle} */}
-          </div>
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
-            {/* {ReactLogoStyle} */}
-          </div>
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
-            {/* {ReactLogoStyle} */}
-          </div>
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
-            {/* {ReactLogoStyle} */}
-          </div>
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
-            {/* {ReactLogoStyle} */}
+          <div class='flex flex-wrap -m-4 text-center'>
+            <img src={Tech} alt='Tech' />
           </div>
         </div>
-      </div>
+      </section>
     </>
-  )
+  );
 }
 
-export default Technology
+export default Technology;

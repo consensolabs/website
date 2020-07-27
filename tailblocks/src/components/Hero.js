@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Crypto from '../assets/img/home-crypto.png';
 
 function Hero() {
   return (
@@ -25,13 +26,13 @@ function Hero() {
             <img
               className='object-cover object-center rounded'
               alt='hero'
-              src='https://dummyimage.com/720x600'
+              src={Crypto}
             />
           </div>
         </div>
       </section>
     </>
-  )
+  );
 }
 
-export default Hero
+export default Hero;
