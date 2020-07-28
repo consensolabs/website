@@ -1,8 +1,9 @@
 import React from 'react';
-import Home from './Pages/Home';
-import About from './Pages/About';
-import Team from './Pages/Team';
-import Contact from './Pages/Contact';
+import Home from './pages/home';
+import About from './pages/about';
+import Team from './pages/team';
+import Contact from './pages/contact';
+import NoMatchPage from './pages/404';
 
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
@@ -25,6 +26,7 @@ function App() {
           <Route path='/contact'>
             <Contact />
           </Route>
+          <Route component={NoMatchPage} />
         </Switch>
       </Router>
     </>
