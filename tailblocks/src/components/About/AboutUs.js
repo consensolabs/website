@@ -1,5 +1,5 @@
 import React from 'react';
-import About from '../../Pages/About';
+import About from '../../pages/about';
 import Product from './Product';
 
 const AboutUs = () => {

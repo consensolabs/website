@@ -1,5 +1,7 @@
 import React from 'react';
+import teamMembers from '../../TeamConfig';
 
+let members = teamMembers;
 const Members = () => {
   return (
     <section className='text-gray-700 body-font bg-gray-200'>
@@ -10,113 +12,23 @@ const Members = () => {
           </h1>
         </div>
         <div className='flex flex-wrap -m-4'>
-          <div className='p-4 lg:w-1/4 md:w-1/2'>
-            <div className='h-full flex flex-col items-center text-center'>
-              <img
-                alt='team'
-                className='flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4'
-                src='https://dummyimage.com/203x203'
-              />
-              <div className='w-full'>
-                <h2 className='title-font font-medium text-lg text-gray-900'>
-                  Koshik Raj
-                </h2>
-                <h3 className='text-gray-500 mb-3'>Co-Founder</h3>
+          {members.map((emp) => (
+            <div className='p-4 lg:w-1/4 md:w-1/2'>
+              <div className='h-full flex flex-col items-center text-center'>
+                <img
+                  alt='team'
+                  className='flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4'
+                  src={emp.image}
+                />
+                <div className='w-full'>
+                  <h2 className='title-font font-medium text-lg text-gray-900'>
+                    {emp.name}
+                  </h2>
+                  <h3 className='text-gray-500 mb-3'>{emp.designation}</h3>
+                </div>
               </div>
             </div>
-          </div>
-          <div className='p-4 lg:w-1/4 md:w-1/2'>
-            <div className='h-full flex flex-col items-center text-center'>
-              <img
-                alt='team'
-                className='flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4'
-                src='https://dummyimage.com/203x203'
-              />
-              <div className='w-full'>
-                <h2 className='title-font font-medium text-lg text-gray-900'>
-                  Manmohan Saxana
-                </h2>
-                <h3 className='text-gray-500 mb-3'>Co-Founder</h3>
-              </div>
-            </div>
-          </div>
-          <div className='p-4 lg:w-1/4 md:w-1/2'>
-            <div className='h-full flex flex-col items-center text-center'>
-              <img
-                alt='team'
-                className='flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4'
-                src='https://dummyimage.com/203x203'
-              />
-              <div className='w-full'>
-                <h2 className='title-font font-medium text-lg text-gray-900'>
-                  Dr. R Singh
-                </h2>
-                <h3 className='text-gray-500 mb-3'>
-                  Mentor and Project Sponsor
-                </h3>
-              </div>
-            </div>
-          </div>
-          <div className='p-4 lg:w-1/4 md:w-1/2'>
-            <div className='h-full flex flex-col items-center text-center'>
-              <img
-                alt='team'
-                className='flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4'
-                src='https://dummyimage.com/203x203'
-              />
-              <div className='w-full'>
-                <h2 className='title-font font-medium text-lg text-gray-900'>
-                  Abhinav Anshul
-                </h2>
-                <h3 className='text-gray-500 mb-3'>Frontend Engineer</h3>
-              </div>
-            </div>
-          </div>
-          <div className='p-4 lg:w-1/4 md:w-1/2'>
-            <div className='h-full flex flex-col items-center text-center'>
-              <img
-                alt='team'
-                className='flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4'
-                src='https://dummyimage.com/203x203'
-              />
-              <div className='w-full'>
-                <h2 className='title-font font-medium text-lg text-gray-900'>
-                  Yathish
-                </h2>
-                <h3 className='text-gray-500 mb-3'>Blockchain Developer</h3>
-              </div>
-            </div>
-          </div>
-          <div className='p-4 lg:w-1/4 md:w-1/2'>
-            <div className='h-full flex flex-col items-center text-center'>
-              <img
-                alt='team'
-                className='flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4'
-                src='https://dummyimage.com/203x203'
-              />
-              <div className='w-full'>
-                <h2 className='title-font font-medium text-lg text-gray-900'>
-                  Shubam Thiwari
-                </h2>
-                <h3 className='text-gray-500 mb-3'>Blockchain Developer</h3>
-              </div>
-            </div>
-          </div>
-          <div className='p-4 lg:w-1/4 md:w-1/2'>
-            <div className='h-full flex flex-col items-center text-center'>
-              <img
-                alt='team'
-                className='flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4'
-                src='https://dummyimage.com/203x203'
-              />
-              <div className='w-full'>
-                <h2 className='title-font font-medium text-lg text-gray-900'>
-                  Koushith Amin
-                </h2>
-                <h3 className='text-gray-500 mb-3'>Frontend Engineer</h3>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>
