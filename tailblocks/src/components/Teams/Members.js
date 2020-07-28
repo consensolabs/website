@@ -1,7 +1,7 @@
 import React from 'react';
-import teamMembers from '../../TeamConfig';
+import TeamMembers from '../../TeamConfig';
 
-let members = teamMembers;
+let members = TeamMembers;
 const Members = () => {
   return (
     <section className='text-gray-700 body-font bg-gray-200'>
