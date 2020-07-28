@@ -1,8 +1,5 @@
 import React from 'react';
-// import ReactLogo from '../assets/logo/ReactLogo.svg'
 import Tech from '../assets/img/Tech.svg';
-
-//const ReactLogoStyle = <img style={{ width: '20%' }} src={ReactLogo} />
 
 function Technology() {
   return (

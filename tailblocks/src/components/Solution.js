@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 function Solution() {
   return (
     <>
-      <section className='text-gray-700 body-font'>
+      <section className='text-gray-700 body-font' id='Prroducts'>
         <div className='container px-5 py-24 mx-auto'>
           <h1 className='flex justify-center sm:text-3xl text-2xl font-medium title-font mb-4 py-6 '>
             Our Blockchain Technology Solutions
@@ -118,7 +118,7 @@ function Solution() {
         </div>
       </section>
     </>
-  )
+  );
 }
 
-export default Solution
+export default Solution;
