@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Crypto from '../assets/img/home-crypto.png';
 
 function Hero() {
   return (
@@ -8,7 +9,6 @@ function Hero() {
           <div className='lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center'>
             <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900'>
               Bringing Blockchain value to the companies
-              {/* <br className='hidden lg:inline-block'>readymade gluten /></br> */}
             </h1>
             <p className='mb-8 leading-relaxed'>
               Dedicated blockchain research lab to provide variety of services
@@ -25,13 +25,13 @@ function Hero() {
             <img
               className='object-cover object-center rounded'
               alt='hero'
-              src='https://dummyimage.com/720x600'
+              src={Crypto}
             />
           </div>
         </div>
       </section>
     </>
-  )
+  );
 }
 
-export default Hero
+export default Hero;
