@@ -1,9 +1,9 @@
 import React from 'react';
-import Home from './pages/home';
-import About from './pages/about';
-import Team from './pages/team';
-import Contact from './pages/contact';
-import NoMatchPage from './pages/404';
+import Home from './Pages/Home';
+import About from './Pages/About';
+import Team from './Pages/Team';
+import Contact from './Pages/Contact';
+import NoMatchPage from './Pages/404';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
