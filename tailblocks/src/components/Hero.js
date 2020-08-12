@@ -4,19 +4,19 @@ import Crypto from '../assets/img/home-crypto.png';
 function Hero() {
   return (
     <>
-      <section className='text-gray-700 body-font'>
+      <section className='bg-primary text-gray-700 body-font'>
         <div className='container mx-auto flex px-5 py-24 md:flex-row flex-col items-center'>
           <div className='lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center'>
-            <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900'>
+            <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-textWhite'>
               Bringing Blockchain value to the companies
             </h1>
-            <p className='mb-8 leading-relaxed'>
+            <p className='text-textWhite mb-8 leading-relaxed'>
               Dedicated blockchain research lab to provide variety of services
               for students, software engineers and blockchain enthusiasts. We
               also try to address critical issues through decentralization.
             </p>
             <div className='flex justify-center'>
-              <button className='inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg'>
+              <button className='inline-flex text-textWhite bg-secondary border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg'>
                 Read More
               </button>
             </div>
