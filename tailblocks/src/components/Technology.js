@@ -9,7 +9,7 @@ function Technology() {
           <div class='flex flex-col text-center w-full mb-20'>
             <h1 class='sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900'>
               Tech Stack We Work On
-              <h2 className="bg-primary">testing</h2>
+              
             </h1>
           </div>
           <div class='flex flex-wrap -m-4 text-center'>
