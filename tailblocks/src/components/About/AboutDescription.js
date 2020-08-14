@@ -10,11 +10,7 @@ const AboutDescription = () => {
             {/* <br className='hidden lg:inline-block'>readymade gluten /></br> */}
           </h1>
           <p className='mb-8 leading-relaxed'>
-            Our Blockchain specialists perform best possible solutions on
-            various platforms such as Ethereum, Hyperledger, EOS. With our
-            thorough experience in blockchain domain, clients get in-house
-            blockchain developers, analysts, security advisors for their
-            projects.
+          Consenso Labs was started as a research lab to bring in futurist programmers and visionaries to explore the decentralization and other accompanying technologies to solve some of the fundamental problems.
           </p>
         </div>
         <div className='lg:max-w-lg lg:w-full md:w-1/2 w-5/6'>
