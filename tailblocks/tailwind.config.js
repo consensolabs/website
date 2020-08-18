@@ -1,6 +1,10 @@
 module.exports = {
   purge: [],
   theme: {
+
+    fontFamily: {
+      sans: ['"Josefin Sans"', 'sans-serif']
+    },
     colors: {
       primary : "#4D4CBB",
       secondary : "#15E6CD",
