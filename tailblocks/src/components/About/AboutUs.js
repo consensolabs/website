@@ -5,8 +5,8 @@ const AboutUs = () => {
   return (
     <>
       <section className='text-gray-500 bg-primary body-font'>
-        <div className='container px-5 py-24 mx-auto'>
-          <div className='flex flex-col text-center w-full mb-20'>
+        <div className='container px-5 pt-24 mx-auto'>
+          <div className='flex flex-col text-center w-full'>
             <h1 className='sm:text-3xl text-2xl font-medium title-font mb-4  text-white'>
               About Us
             </h1>

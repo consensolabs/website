@@ -1,5 +1,6 @@
 import React from 'react';
-import Crypto from '../assets/img/home-crypto.png';
+import HeroImage from '../assets/img/hero.svg';
+import {HashLink as Link} from "react-router-hash-link";
 
 function Hero() {
   return (
@@ -14,16 +15,26 @@ function Hero() {
             <span style={{fontWeight : "700"}}>Consenso Labs</span> is a blockchain research and development lab where we confront ourselves to solve some of the most challenging finance, legal and economical use cases by utilizing the cutting edge technology platforms to achieve efficiency and the consensus among the disparate parties.
             </p>
             <div className='flex justify-center'>
-              <button className='inline-flex text-textWhite bg-secondary border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg'>
-                Read More
-              </button>
+              <Link
+                  to='/#services'
+                  className='mr-5 hover:text-gray-900'
+                  activeClass='active'
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}>
+                <button className='inline-flex text-textWhite bg-secondary border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg'>
+                  Read More
+                </button>
+              </Link>
+
             </div>
           </div>
           <div className='lg:max-w-lg lg:w-full md:w-1/2 w-5/6'>
             <img
               className='object-cover object-center rounded'
               alt='hero'
-              src={Crypto}
+              src={HeroImage}
             />
           </div>
         </div>

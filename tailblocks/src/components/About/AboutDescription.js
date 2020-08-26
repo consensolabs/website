@@ -1,5 +1,5 @@
 import React from 'react';
-import About from '../../assets/img/about.svg';
+import About from '../../assets/img/about.png';
 const AboutDescription = () => {
   return (
     <section className='text-gray-700 body-font'>

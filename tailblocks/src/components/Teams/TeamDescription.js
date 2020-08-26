@@ -11,12 +11,7 @@ const TeamDescription = () => {
           </h1>
           <p className='mb-8 leading-relaxed'>
             We believe people and talent are the real core value of any company
-            and our most important asset. We invest time selecting the people
-            that join our team and work hard in making sure they keep growing
-            with us. We measure our standards not only by technical knowledge
-            and field expertise, but by the ability to collaborate and utmost
-            professionalism. Value is created from within, and people is the
-            cornerstone for longlasting success.
+            and our most important asset. Our core team is comprised of financial, legal, and blockchain technology connoisseurs and a passionate development team with a great amount of time spent on understanding issues in the existing infrastructure.
           </p>
         </div>
         <div className='lg:max-w-lg lg:w-full md:w-1/2 w-5/6'>
