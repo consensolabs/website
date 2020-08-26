@@ -12,16 +12,16 @@ const Members = () => {
             The real building blocks
           </h1>
         </div>
-        <div className='flex flex-wrap -m-4'>
+        <div className='flex flex-wrap -m-4 items-center object-center'>
           {members.map((emp) => (
             <div className='p-4 lg:w-1/5 md:w-1/2'>
-              <div className='h-full flex flex-col items-center text-center'>
+              <div className='h-full w-48 flex flex-col items-center text-center'>
                 <img
                   alt='team'
-                  className='flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4'
+                  className='flex-shrink-0 rounded-lg h-56 object-cover object-center mb-4'
                   src={emp.image}
                 />
-                <div className='w-full'>
+                <div>
                   <h2 className='title-font font-medium text-lg text-gray-900'>
                     {emp.name}
                   </h2>

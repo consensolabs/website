@@ -30,7 +30,7 @@ function Header() {
                 smooth={true}
                 offset={-70}
                 duration={500}>
-              Product
+              Products
             </Link>
             <Link
                 to='/#services'
@@ -43,7 +43,7 @@ function Header() {
               Services
             </Link>
             <Link to='/team' className='mr-5 hover:text-gray-900'>
-              Teams
+              Team
             </Link>
             <a href='https://medium.com/conensolabs' target='_blank' className='mr-5 hover:text-gray-900'>
               Blog
