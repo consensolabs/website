@@ -16,9 +16,15 @@ header {
   }
 
   .mobile-center {
-    display: inline-flex;
+    display: flex !important;
     align-items: center;
     justify-content: center;
+    text-align: center;
+  }
+
+  .cta {
+    display: flex !important;
+    align-items: center !important;
     text-align: center;
   }
 }

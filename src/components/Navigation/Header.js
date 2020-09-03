@@ -150,9 +150,9 @@ function Header() {
       {/* mobile nav */}
 
       <nav className='mobile-toggle flex items-center bg-primary p-3 flex-wrap sm:hidden md:hidden z-50  mobile-nav'>
-        <a href='#' class='p-2 mr-4 inline-flex items-center'>
+        <Link to='/' href='#' class='p-2 mr-4 inline-flex items-center'>
           {HeaderLogoStyle}
-        </a>
+        </Link>
 
         <button
           className='text-white inline-flex p-3 hover:bg-gray-900 rounded lg:hidden ml-auto hover:text-white outline-none nav-toggler'
