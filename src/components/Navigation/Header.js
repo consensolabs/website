@@ -26,18 +26,6 @@ function Header() {
               About
             </Link>
             <Link
-              to='/#products'
-              className='block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4'
-              activeClass='active'
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              onClick={() => setShowMenu(!showMenu)}
-            >
-              Products
-            </Link>
-            <Link
               to='/#services'
               className='block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4'
               activeClass='active'
@@ -50,6 +38,19 @@ function Header() {
               Services
             </Link>
             <Link
+              to='/#products'
+              className='block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4'
+              activeClass='active'
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              onClick={() => setShowMenu(!showMenu)}
+            >
+              Products
+            </Link>
+
+            <Link
               to='/team'
               className='block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4'
               onClick={() => setShowMenu(!showMenu)}
@@ -60,6 +61,7 @@ function Header() {
               href='https://medium.com/conensolabs'
               target='_blank'
               className='block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4'
+              rel='noopener noreferrer'
               onClick={() => setShowMenu(!showMenu)}
             >
               Blog
@@ -68,6 +70,7 @@ function Header() {
               href='https://angel.co/company/consensolabs/jobs'
               target='_blank'
               className='block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4'
+              rel='noopener noreferrer'
               onClick={() => setShowMenu(!showMenu)}
             >
               Career
@@ -98,17 +101,7 @@ function Header() {
             <Link to='/about' className='mr-5 hover:text-gray-900'>
               About
             </Link>
-            <Link
-              to='/#products'
-              className='mr-5 hover:text-gray-900'
-              activeClass='active'
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              Products
-            </Link>
+
             <Link
               to='/#services'
               className='mr-5 hover:text-gray-900'
@@ -120,6 +113,18 @@ function Header() {
             >
               Services
             </Link>
+            <Link
+              to='/#products'
+              className='mr-5 hover:text-gray-900'
+              activeClass='active'
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Products
+            </Link>
+
             <Link to='/team' className='mr-5 hover:text-gray-900'>
               Team
             </Link>
@@ -127,6 +132,7 @@ function Header() {
               href='https://medium.com/conensolabs'
               target='_blank'
               className='mr-5 hover:text-gray-900'
+              rel='noopener noreferrer'
             >
               Blog
             </a>
@@ -134,6 +140,7 @@ function Header() {
               href='https://angel.co/company/consensolabs/jobs'
               target='_blank'
               className='mr-5 hover:text-gray-900'
+              rel='noopener noreferrer'
             >
               Career
             </a>

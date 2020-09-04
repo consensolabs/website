@@ -1,5 +1,5 @@
 import React from 'react';
-import HeaderLogo from '../assets/logo/HeaderLogo.png';
+
 import ArbChain from '../assets/icons/arbchain.svg';
 import GitFunded from '../assets/icons/GitFunded.svg';
 import SyndLend from '../assets/icons/syndlend.svg';
@@ -9,7 +9,7 @@ function Solution() {
     <>
       <section className='bg-primary text-gray-700 body-font' id='products'>
         <div className='container px-5 py-24 mx-auto'>
-          <h1 className='text-textWhite flex justify-center sm:text-3xl text-2xl font-medium title-font mb-4 py-6 '>
+          <h1 className='text-textWhite flex justify-center sm:text-3xl sm:text-center text-2xl font-medium title-font mb-4 py-6 mobile-center cta'>
             Our blockchain technology solutions
           </h1>
           <div className='flex flex-wrap -m-4'>
