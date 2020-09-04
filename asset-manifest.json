@@ -1,25 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.7fea5546.chunk.css",
-    "main.js": "/static/js/main.bff7090d.chunk.js",
-    "main.js.map": "/static/js/main.bff7090d.chunk.js.map",
+    "main.css": "/static/css/main.246d42f3.chunk.css",
+    "main.js": "/static/js/main.23fc2b9a.chunk.js",
+    "main.js.map": "/static/js/main.23fc2b9a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.aaf441fc.js",
     "runtime-main.js.map": "/static/js/runtime-main.aaf441fc.js.map",
-    "static/js/2.c5461928.chunk.js": "/static/js/2.c5461928.chunk.js",
-    "static/js/2.c5461928.chunk.js.map": "/static/js/2.c5461928.chunk.js.map",
+    "static/js/2.e8147da2.chunk.js": "/static/js/2.e8147da2.chunk.js",
+    "static/js/2.e8147da2.chunk.js.map": "/static/js/2.e8147da2.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.02d4ce5dc93dcfa2c95d98f17d24365e.js": "/precache-manifest.02d4ce5dc93dcfa2c95d98f17d24365e.js",
+    "precache-manifest.e297cde61176f3856b39aa93245c876b.js": "/precache-manifest.e297cde61176f3856b39aa93245c876b.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.7fea5546.chunk.css.map": "/static/css/main.7fea5546.chunk.css.map",
-    "static/js/2.c5461928.chunk.js.LICENSE.txt": "/static/js/2.c5461928.chunk.js.LICENSE.txt",
+    "static/css/main.246d42f3.chunk.css.map": "/static/css/main.246d42f3.chunk.css.map",
+    "static/js/2.e8147da2.chunk.js.LICENSE.txt": "/static/js/2.e8147da2.chunk.js.LICENSE.txt",
     "static/media/ErrorPage404.svg": "/static/media/ErrorPage404.3d5179a8.svg",
     "static/media/GitFunded.svg": "/static/media/GitFunded.05723973.svg",
     "static/media/about.png": "/static/media/about.986ec53b.png",
     "static/media/arbchain.svg": "/static/media/arbchain.4de58248.svg",
     "static/media/corda.png": "/static/media/corda.94f9fea0.png",
+    "static/media/economy.png": "/static/media/economy.db29d769.png",
     "static/media/ethereum.png": "/static/media/ethereum.802c0b9a.png",
+    "static/media/fintech.png": "/static/media/fintech.df7d5338.png",
     "static/media/github.svg": "/static/media/github.9329315b.svg",
     "static/media/hero.svg": "/static/media/hero.fbbb8005.svg",
+    "static/media/legal.png": "/static/media/legal.b81d7cf2.png",
     "static/media/react.png": "/static/media/react.638be909.png",
     "static/media/solidity.png": "/static/media/solidity.f61db706.png",
     "static/media/syndlend.svg": "/static/media/syndlend.578b641f.svg",
@@ -27,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.aaf441fc.js",
-    "static/js/2.c5461928.chunk.js",
-    "static/css/main.7fea5546.chunk.css",
-    "static/js/main.bff7090d.chunk.js"
+    "static/js/2.e8147da2.chunk.js",
+    "static/css/main.246d42f3.chunk.css",
+    "static/js/main.23fc2b9a.chunk.js"
   ]
 }
