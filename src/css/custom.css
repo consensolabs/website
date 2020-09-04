@@ -1,0 +1,30 @@
+header {
+  position: fixed;
+  top: 0;
+  z-index: 200;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .mob {
+    display: none !important;
+  }
+  .mobile-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .mobile-center {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .cta {
+    display: flex !important;
+    align-items: center !important;
+    text-align: center;
+  }
+}
