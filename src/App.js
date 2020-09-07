@@ -5,7 +5,7 @@ import Team from './Pages/Team';
 import Contact from './Pages/Contact';
 import NoMatchPage from './Pages/404';
 
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Header from './components/Navigation/Header';
 import { CookieBanner } from '@palmabit/react-cookie-law';
