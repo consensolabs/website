@@ -85,7 +85,7 @@ function Description() {
                 </h2>
                 <p className='leading-relaxed text-base'>
                   We develop MVPs along with business models for variety of use
-                  cases. Check out{' '}
+                  cases. Check out
                   <Link
                     to='/#products'
                     className='mr-5 hover:text-gray-900 mt-3 text-indigo-500'

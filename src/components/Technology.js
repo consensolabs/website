@@ -22,7 +22,7 @@ function Technology() {
           </p>
         </div>
         <div class='flex flex-wrap -m-4 text-center'>
-          <div class='p-4 md:w-1/4 sm:w-1/2 w-full'>
+          <div class='p-4 md:w-1/4 sm:w-1/2 w-full' data-aos='zoom-in'>
             <div class='border-2 border-gray-200 px-4 py-5 h-52 rounded-lg'>
               <img
                 className='w-32 h-32 object-cover object-center mb-4 inline-block'
@@ -32,7 +32,10 @@ function Technology() {
             </div>
           </div>
           <div class='p-4 md:w-1/4 sm:w-1/2 w-full'>
-            <div class='border-2 border-gray-200 px-4 py-6 h-52 rounded-lg'>
+            <div
+              class='border-2 border-gray-200 px-4 py-6 h-52 rounded-lg'
+              data-aos='zoom-in'
+            >
               <img
                 className='w-24 h-24 object-cover object-center mb-4 inline-block'
                 src={Ethereum}
@@ -43,7 +46,10 @@ function Technology() {
             </div>
           </div>
           <div class='p-4 md:w-1/4 sm:w-1/2 w-full'>
-            <div class='border-2 border-gray-200 px-6 py-6 h-52 rounded-lg'>
+            <div
+              class='border-2 border-gray-200 px-6 py-6 h-52 rounded-lg'
+              data-aos='zoom-in'
+            >
               <img
                 className='w-24 h-24 object-cover object-center mb-4 inline-block'
                 src={Solidity}
@@ -52,7 +58,10 @@ function Technology() {
             </div>
           </div>
           <div class='p-4 md:w-1/4 sm:w-1/2 w-full'>
-            <div class='border-2 border-gray-200 px-4 py-8 h-52 rounded-lg'>
+            <div
+              class='border-2 border-gray-200 px-4 py-8 h-52 rounded-lg'
+              data-aos='zoom-in'
+            >
               <img
                 className='w-24 h-24 object-cover object-center mb-4 inline-block'
                 src={ReactIcon}
