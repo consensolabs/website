@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import HeaderLogo from '../../assets/logo/HeaderLogo.png';
-// import NavMenu from './MobileNav';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import '../../css/custom.css';
