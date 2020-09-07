@@ -1,11 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const TeamsCta = () => {
   return (
     <>
-      <section className='text-gray-700 body-font  '>
-        <div className='container px-5 py-24 mx-auto'>
+      <section className='text-gray-700 body-font'>
+        <div className='container px-5 py-24 mx-auto' data-aos='zoom-in'>
           <div className='lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto cta'>
             <h1 className='flex-grow sm:pr-16 text-2xl font-medium title-font text-gray-900'>
               Your next adventure starts here. Join our team now.
