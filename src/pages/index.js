@@ -1,15 +1,17 @@
 import React from 'react';
-import Home from './Pages/Home';
-import About from './Pages/About';
-import Team from './Pages/Team';
-import Contact from './Pages/Contact';
-import NoMatchPage from './Pages/404';
+
+import Home from '../Pages/Home';
+import About from '../Pages/About';
+import Team from '../pages/Team';
+import Contact from '../Pages/Contact';
+import NoMatchPage from '../Pages/404';
+import '../build/tailwind.css';
 
 import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 
-import Header from './components/Navigation/Header';
-import { CookieBanner } from '@palmabit/react-cookie-law';
-function App() {
+import Header from '../components/Navigation/Header';
+
+function Index() {
   return (
     <>
       <Router>
@@ -46,4 +48,4 @@ function App() {
   );
 }
 
-export default App;
+export default Index;
