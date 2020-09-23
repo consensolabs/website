@@ -9,22 +9,25 @@ import ReactGA from 'react-ga';
 import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Header from './components/Navigation/Header';
-import { CookieBanner } from '@palmabit/react-cookie-law';
 
 // function analytics() {
 //   ReactGA.initialize('');
 //   ReactGA.pageview('/');
+//    ReactGA.set({ page: location.pathname });
 // }
 function App() {
   useEffect(() => {
     ReactGA.initialize('UA-178594238-1');
-    // ReactGA.pageview(window.location.pathname + window.length.search);
-    ReactGA.pageview('window.location.pathname');
+    //ReactGA.pageview(window.location.pathname + window.length.search);
+    ReactGA.pageview('/');
+    ReactGA.pageview('/about');
+    ReactGA.pageview('/team');
+    ReactGA.pageview('/contact');
   }, []);
 
-  useEffect(() => {
-    console.log(window.location.search);
-  }, []);
+  // useEffect(() => {
+  //   console.log(window.location.search);
+  // }, []);
   return (
     <>
       <Router>

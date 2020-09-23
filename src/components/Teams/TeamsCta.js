@@ -2,9 +2,16 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import ReactGA from 'react-ga';
 AOS.init();
 
 const TeamsCta = () => {
+  const ClickHandlerTracker = () => {
+    ReactGA.event({
+      category: 'Explore Roles',
+      action: 'clicked Explore Role',
+    });
+  };
   return (
     <>
       <section className='text-gray-700 body-font'>
@@ -19,7 +26,10 @@ const TeamsCta = () => {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                <button className='flex-shrink-0  justify-center text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg mt-10 sm:mt-0 sm:items-center '>
+                <button
+                  className='flex-shrink-0  justify-center text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg mt-10 sm:mt-0 sm:items-center '
+                  onClick={ClickHandlerTracker}
+                >
                   Explore Roles
                 </button>
               </a>
