@@ -3,9 +3,16 @@ import { HashLink as Link } from 'react-router-hash-link';
 import '../css/custom.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import ReactGA from 'react-ga';
 AOS.init();
 
 const Cta = () => {
+  const ClickHandlerTracker = () => {
+    ReactGA.event({
+      category: 'Button',
+      action: 'clicked explore now button',
+    });
+  };
   return (
     <section className='text-gray-700 body-font ' data-aos='zoom-in'>
       <div className='container px-5 py-24 mx-auto'>
@@ -14,7 +21,7 @@ const Cta = () => {
             Are you looking for Blockchain Solutions?
           </h1>
 
-          <Link to='/contact'>
+          <Link to='/contact' onClick={ClickHandlerTracker}>
             <button className='flex-shrink-0 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg mt-10 sm:mt-0'>
               Contact Us
             </button>
