@@ -20,7 +20,7 @@ const Home = () => {
         <meta name='robots' content='index, follow' />
         <meta
           name='keywords'
-          content=' blockchain , blockchain technology, blockchain research lab in Bangalore, cryptography '
+          content=' blockchain , blockchain technology, blockchain research lab in Bangalore, cryptography, Blockchain company in Bangalore '
         />
       </Helmet>
       <Hero />
