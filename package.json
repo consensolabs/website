@@ -1,10 +1,11 @@
 {
-  "name": "gatsby-starter-tailwind",
-  "description": "Gatsby starter styled with Tailwind",
+  "name": "Consenso Labs",
+  "description": "Consenso Labs official website",
   "version": "4.0.0",
-  "author": "Taylor Bryant <taylor@bryant.io>",
+  "author": "Consenso Labs",
   "dependencies": {
     "gatsby": "2.24.58",
+    "gatsby-plugin-google-analytics": "^2.3.14",
     "gatsby-plugin-manifest": "2.4.29",
     "gatsby-plugin-offline": "3.2.27",
     "gatsby-plugin-postcss": "2.3.11",

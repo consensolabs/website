@@ -33,17 +33,6 @@ function Index() {
           <Route component={NoMatchPage} />
         </Switch>
       </Router>
-      {/*    <CookieBanner*/}
-      {/*     styles={{*/}
-      {/*  dialog: { bottom : '0px' , position : "fixed", padding : '1rem', backgroundColor : "white", width : "100%" }*/}
-      {/*}}*/}
-      {/*      message="Cookie banner message"*/}
-      {/*      wholeDomain={true}*/}
-      {/*      onAccept = {() => {}}*/}
-      {/*      onAcceptPreferences = {() => {}}*/}
-      {/*      onAcceptStatistics = {() => {}}*/}
-      {/*      onAcceptMarketing = {() => {}}*/}
-      {/*    />*/}
     </>
   );
 }
