@@ -5,6 +5,12 @@ header {
   width: 100%;
 }
 
+.mobile-flex {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 @media only screen and (max-width: 600px) {
   .mob {
     display: none !important;
@@ -25,6 +31,9 @@ header {
   .cta {
     display: flex !important;
     align-items: center !important;
+    text-align: center;
+  }
+  h1 {
     text-align: center;
   }
 }

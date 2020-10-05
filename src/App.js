@@ -1,15 +1,33 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Team from './Pages/Team';
 import Contact from './Pages/Contact';
 import NoMatchPage from './Pages/404';
+import ReactGA from 'react-ga';
 
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Header from './components/Navigation/Header';
-import { CookieBanner } from '@palmabit/react-cookie-law';
+
+// function analytics() {
+//   ReactGA.initialize('');
+//   ReactGA.pageview('/');
+//    ReactGA.set({ page: location.pathname });
+// }
 function App() {
+  useEffect(() => {
+    ReactGA.initialize('UA-178594238-1');
+    //ReactGA.pageview(window.location.pathname + window.length.search);
+    ReactGA.pageview('/');
+    ReactGA.pageview('/about');
+    ReactGA.pageview('/team');
+    ReactGA.pageview('/contact');
+  }, []);
+
+  // useEffect(() => {
+  //   console.log(window.location.search);
+  // }, []);
   return (
     <>
       <Router>

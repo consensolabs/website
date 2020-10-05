@@ -1,19 +1,21 @@
 import React from 'react';
-import HeaderLogo from '../assets/logo/HeaderLogo.png';
 import ArbChain from '../assets/icons/arbchain.svg';
 import GitFunded from '../assets/icons/GitFunded.svg';
 import SyndLend from '../assets/icons/syndlend.svg';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 function Solution() {
   return (
     <>
       <section className='bg-primary text-gray-700 body-font' id='products'>
         <div className='container px-5 py-24 mx-auto'>
-          <h1 className='text-textWhite flex justify-center sm:text-3xl text-2xl font-medium title-font mb-4 py-6 '>
+          <h1 className='text-textWhite flex justify-center sm:text-3xl sm:text-center text-2xl font-medium title-font mb-4 py-6 mobile-center cta'>
             Our blockchain technology solutions
           </h1>
           <div className='flex flex-wrap -m-4'>
-            <div className='p-4 md:w-1/3 '>
+            <div className='p-4 md:w-1/3  ' data-aos='zoom-in-down'>
               <a href='https://arbchain.consensolabs.com' target='_blank'>
                 <div className='flex rounded-lg h-full bg-gray-100 p-8 flex-col transition duration-500 ease-in-out bg-white hover:bg-white transform hover:-translate-y-1 hover:scale-110'>
                   <div className='flex items-center mb-3'>
@@ -49,7 +51,7 @@ function Solution() {
               </a>
             </div>
 
-            <div className='p-4 md:w-1/3'>
+            <div className='p-4 md:w-1/3' data-aos='zoom-in-down'>
               <a href='https://syndlend.com' target='_blank'>
                 <div className='flex rounded-lg h-full bg-gray-100 p-8 flex-col transition duration-500 ease-in-out bg-white hover:bg-white transform hover:-translate-y-1 hover:scale-110'>
                   <div className='flex items-center mb-3 '>
@@ -90,7 +92,7 @@ function Solution() {
               </a>
             </div>
 
-            <div className='p-4 md:w-1/3'>
+            <div className='p-4 md:w-1/3' data-aos='zoom-in-down'>
               <a href='https://gitfunded.consensolabs.com' target='_blank'>
                 <div className='flex rounded-lg h-full bg-gray-100 p-8 flex-col transition duration-500 ease-in-out bg-white hover:bg-white transform hover:-translate-y-1 hover:scale-110'>
                   <div className='flex items-center mb-3'>
