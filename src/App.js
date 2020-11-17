@@ -4,6 +4,7 @@ import About from './Pages/About';
 import Team from './Pages/Team';
 import Contact from './Pages/Contact';
 import InfoPageRajiv from './Pages/InfoPageRajiv';
+import LawtechIntro from './Pages/LawtechIntro';
 import NoMatchPage from './Pages/404';
 import ReactGA from 'react-ga';
 
@@ -49,6 +50,9 @@ function App() {
           </Route>
           <Route path='/rajiv'>
             <InfoPageRajiv />
+          </Route>
+          <Route path='/technation'>
+            <LawtechIntro />
           </Route>
           <Route component={NoMatchPage} />
         </Switch>
