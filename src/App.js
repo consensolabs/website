@@ -3,6 +3,7 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 import Team from './Pages/Team';
 import Contact from './Pages/Contact';
+import InfoPageRajiv from './Pages/InfoPageRajiv';
 import NoMatchPage from './Pages/404';
 import ReactGA from 'react-ga';
 
@@ -45,6 +46,9 @@ function App() {
           </Route>
           <Route path='/contact'>
             <Contact />
+          </Route>
+          <Route path='/rajiv'>
+            <InfoPageRajiv />
           </Route>
           <Route component={NoMatchPage} />
         </Switch>
