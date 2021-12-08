@@ -16,12 +16,10 @@ function Description() {
         <div className='container px-5 py-24 mx-auto'>
           <div className='text-center mb-20'>
             <h1 className='sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4'>
-              Our services
+              Our expertise
             </h1>
             <p className='text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto'>
-              Our dedicated and passionate team provides a variety of solutions
-              related to application, tools, infrastructure, business logic
-              development for several blockchain platforms..
+              Our dedicated and passionate team works on a variety of of tools and infrastructures to ship business logic using several web3 protocols.
             </p>
             <div className='flex mt-6 justify-center'>
               <div className='w-16 h-1 rounded-full bg-indigo-500 inline-flex'></div>
@@ -55,8 +53,7 @@ function Description() {
                   Decentralized Application Development
                 </h2>
                 <p className='leading-relaxed text-base'>
-                  We provide end to end support to develop and deploy
-                  decentralized applications.
+                  We build the end to end applications without compromising the principles of decentralization.
                 </p>
               </div>
             </div>
@@ -84,8 +81,8 @@ function Description() {
                   Minimum Viable Product Development
                 </h2>
                 <p className='leading-relaxed text-base'>
-                  We develop MVPs along with business models for variety of use
-                  cases. Check out
+                  We have previously developed MVPs tackling various problems for variety of use
+                  cases. Check out our <span/>
                   <Link
                     to='/#products'
                     className='mr-5 hover:text-gray-900 mt-3 text-indigo-500'
@@ -128,7 +125,7 @@ function Description() {
                 </h2>
                 <p className='leading-relaxed text-base'>
                   We design and implement business logic on popular smart
-                  contract languages.
+                  contract languages by constantly upgrading our ecosystem knowledge.
                 </p>
               </div>
             </div>
@@ -156,11 +153,10 @@ function Description() {
               </div>
               <div className='flex-grow'>
                 <h2 className='text-gray-900 text-lg title-font font-medium mb-3'>
-                  Smart Contract Audit
+                  Smart Contract Security
                 </h2>
                 <p className='leading-relaxed text-base'>
-                  We make sure that contracts are will audited against business
-                  logic and security flaws.
+                  We pay a lot of attention to the security of our solution and the contracts by running it through audits and bug bounties.
                 </p>
               </div>
             </div>
@@ -191,8 +187,7 @@ function Description() {
                   Infrastructure management
                 </h2>
                 <p className='leading-relaxed text-base'>
-                  We manage infrastructural requirements of most of the private
-                  blockchain platforms .
+                  We are well equipped to manage infrastructural requirements for various platforms and protocols.
                 </p>
               </div>
             </div>
@@ -223,8 +218,7 @@ function Description() {
                   Usecase Evaluation
                 </h2>
                 <p className='leading-relaxed text-base'>
-                  We carefully assess the business logic for the feasibility/
-                  need on a variety of platforms .
+                  We carefully assess the business logic of various solutions and run it through users and iterate.
                 </p>
               </div>
             </div>

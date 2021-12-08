@@ -11,6 +11,15 @@ export default function Footer() {
               Products
             </h2>
             <nav className='list-none mb-10 font-normal '>
+            <li>
+                <a
+                  href='https://safient.io'
+                  target='_blank'
+                  className='text-gray-400 hover:text-gray-800 cursor-pointer'
+                >
+                  Safient
+                </a>
+              </li>
               <li>
                 <a
                   href='https://arbchain.consensolabs.com'
@@ -27,15 +36,6 @@ export default function Footer() {
                   className='text-gray-400 hover:text-gray-800 cursor-pointer'
                 >
                   Syndlend
-                </a>
-              </li>
-              <li>
-                <a
-                  href='https://gitfunded.consensolabs.com'
-                  target='_blank'
-                  className='text-gray-400 hover:text-gray-800 cursor-pointer'
-                >
-                  GitFunded
                 </a>
               </li>
             </nav>

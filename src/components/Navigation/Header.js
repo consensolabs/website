@@ -15,7 +15,7 @@ function Header() {
 
   if (showMenu) {
     menu = (
-      <div class='w-full block flex-grow lg:flex lg:items-center lg:w-auto bg-primary '>
+      <div class='w-full block flex-grow lg:flex lg:items-center lg:w-auto bg-gradient-to-r from-primary via-indigo-500 to-blue-400 '>
         <div className='container mx-auto flex px-5  md:flex-row flex-col '>
           <div class='text-sm lg:flex-grow' data-aos='fade-left'>
             <Link
@@ -96,7 +96,7 @@ function Header() {
   }
   return (
     <>
-      <header className='bg-primary text-textWhite body-font mob'>
+      <header className='bg-gradient-to-r from-primary via-indigo-500 to-blue-400 text-textWhite body-font mob'>
         <div
           data-aos='fade-in'
           className='container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center'
@@ -166,7 +166,7 @@ function Header() {
 
       {/* mobile nav */}
 
-      <nav className='mobile-toggle flex items-center bg-primary p-3 flex-wrap sm:hidden md:hidden z-50  mobile-nav'>
+      <nav className='mobile-toggle flex items-center bg-gradient-to-r from-primary via-indigo-500 to-blue-400 p-3 flex-wrap sm:hidden md:hidden z-50  mobile-nav'>
         <Link to='/' href='#' class='p-2 mr-4 inline-flex items-center'>
           {HeaderLogoStyle}
         </Link>

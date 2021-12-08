@@ -2,7 +2,7 @@ import React from 'react';
 import Corda from '../assets/img/corda.png';
 import Ethereum from '../assets/img/ethereum.png';
 import Solidity from '../assets/img/solidity.png';
-import ReactIcon from '../assets/img/react.png';
+import IPFS from '../assets/img/ipfs.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
@@ -16,21 +16,11 @@ function Technology() {
             Technologies we work on
           </h1>
           <p class='lg:w-2/3 mx-auto leading-relaxed text-base'>
-            We work on a variety of technologies only after researching their
-            capability to scale and integrate with other evolving technologies
-            that could implement the use cases.
+            We work on a variety of Web2 and Web3 technologies only after researching their
+            capability to scale and to be composable with other tech stacks.
           </p>
         </div>
         <div class='flex flex-wrap -m-4 text-center'>
-          <div class='p-4 md:w-1/4 sm:w-1/2 w-full' data-aos='zoom-in'>
-            <div class='border-2 border-gray-200 px-4 py-5 h-52 rounded-lg'>
-              <img
-                className='w-32 h-32 object-cover object-center mb-4 inline-block'
-                src={Corda}
-              />
-              <p class='leading-relaxed'>R3 Corda DLT</p>
-            </div>
-          </div>
           <div class='p-4 md:w-1/4 sm:w-1/2 w-full'>
             <div
               class='border-2 border-gray-200 px-4 py-6 h-52 rounded-lg'
@@ -41,7 +31,7 @@ function Technology() {
                 src={Ethereum}
               />
               <p class='leading-relaxed'>
-                Enterprise and public Ethereum blockchain
+                Enterprise and public Ethereum (EVM based) protcols and tools
               </p>
             </div>
           </div>
@@ -64,11 +54,21 @@ function Technology() {
             >
               <img
                 className='w-24 h-24 object-cover object-center mb-4 inline-block'
-                src={ReactIcon}
+                src={IPFS}
               />
-              <p class='leading-relaxed'>React frontend library</p>
+              <p class='leading-relaxed'>IPFS storage stacks</p>
             </div>
           </div>
+          <div class='p-4 md:w-1/4 sm:w-1/2 w-full' data-aos='zoom-in'>
+            <div class='border-2 border-gray-200 px-4 py-5 h-52 rounded-lg'>
+              <img
+                className='w-32 h-32 object-cover object-center mb-4 inline-block'
+                src={Corda}
+              />
+              <p class='leading-relaxed'>R3 Corda DLT</p>
+            </div>
+          </div>
+         
         </div>
       </div>
     </section>
