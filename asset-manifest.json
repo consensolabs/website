@@ -1,21 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.7d726a57.chunk.css",
-    "main.js": "/static/js/main.b00d48ea.chunk.js",
-    "main.js.map": "/static/js/main.b00d48ea.chunk.js.map",
+    "main.js": "/static/js/main.b0044f87.chunk.js",
+    "main.js.map": "/static/js/main.b0044f87.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.aaf441fc.js",
     "runtime-main.js.map": "/static/js/runtime-main.aaf441fc.js.map",
     "static/css/2.4707e12a.chunk.css": "/static/css/2.4707e12a.chunk.css",
     "static/js/2.285dc0fd.chunk.js": "/static/js/2.285dc0fd.chunk.js",
     "static/js/2.285dc0fd.chunk.js.map": "/static/js/2.285dc0fd.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.bd2fbf783636f004999c685d96d33287.js": "/precache-manifest.bd2fbf783636f004999c685d96d33287.js",
+    "precache-manifest.adc61857eb9cdf041698846f5242b012.js": "/precache-manifest.adc61857eb9cdf041698846f5242b012.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/static/css/2.4707e12a.chunk.css.map",
     "static/css/main.7d726a57.chunk.css.map": "/static/css/main.7d726a57.chunk.css.map",
     "static/js/2.285dc0fd.chunk.js.LICENSE.txt": "/static/js/2.285dc0fd.chunk.js.LICENSE.txt",
     "static/media/ErrorPage404.svg": "/static/media/ErrorPage404.3d5179a8.svg",
-    "static/media/GitFunded.svg": "/static/media/GitFunded.05723973.svg",
     "static/media/about.png": "/static/media/about.986ec53b.png",
     "static/media/arbchain.svg": "/static/media/arbchain.4de58248.svg",
     "static/media/corda.png": "/static/media/corda.94f9fea0.png",
@@ -23,9 +22,10 @@
     "static/media/ethereum.png": "/static/media/ethereum.802c0b9a.png",
     "static/media/github.svg": "/static/media/github.9329315b.svg",
     "static/media/hero.svg": "/static/media/hero.fbbb8005.svg",
+    "static/media/ipfs.png": "/static/media/ipfs.94687f2f.png",
     "static/media/koushith.jpeg": "/static/media/koushith.c030c552.jpeg",
     "static/media/legal.png": "/static/media/legal.b81d7cf2.png",
-    "static/media/react.png": "/static/media/react.638be909.png",
+    "static/media/safient.svg": "/static/media/safient.e237ac93.svg",
     "static/media/shubham.jpeg": "/static/media/shubham.cfab2aed.jpeg",
     "static/media/solidity.png": "/static/media/solidity.f61db706.png",
     "static/media/syndlend.svg": "/static/media/syndlend.578b641f.svg",
@@ -37,6 +37,6 @@
     "static/css/2.4707e12a.chunk.css",
     "static/js/2.285dc0fd.chunk.js",
     "static/css/main.7d726a57.chunk.css",
-    "static/js/main.b00d48ea.chunk.js"
+    "static/js/main.b0044f87.chunk.js"
   ]
 }
